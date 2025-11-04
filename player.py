@@ -1,3 +1,4 @@
-class player:
+import pygame
+class Player:
     def __init__(self):
-        pass
+        self.position = pygame.Vector2(0,0)
